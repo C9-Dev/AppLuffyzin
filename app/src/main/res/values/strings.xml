@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Teste</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="exit">Exit</string>
+    <string name="meu_querido_logo">Meu_querido_logo</string>
+</resources>

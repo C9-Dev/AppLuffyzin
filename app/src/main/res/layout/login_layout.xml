@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/EdtImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/meu_querido_logo"
+        android:src="#000" />
+
+    <TextView
+        android:id="@+id/EdtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EdtInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/borda"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:maxLength="100"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/EdtInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints="password"
+        android:background="@drawable/borda"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="9999"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/button"
+        android:text="@string/login" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/button"
+        android:text="@string/exit" />
+
+</LinearLayout>
